@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgba(143, 7, 206, 0.986);
+}
+.formulario-login{
+    background-color: white;
+    border-radius: 0.3em;
+    min-width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+main{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+.titulo-login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.884);
+    background-color: inherit;
+    margin: 10px;
+    text-align: center;
+    margin-top: 8%;
+}
+.input-field{
+    align-items: inherit;
+    background-color: inherit;
+}
+
+.input{
+    font-size: 1rem;
+    background-color: inherit;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: rgba(224, 213, 230, 0.986);
+    margin-top: 50px;
+    width: 280px;
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+}
+
+.input:hover{
+    border-color: rgba(160, 119, 179, 0.986);
+    width: 280px;
+}
+.input:focus{
+    border-color: rgba(143, 7, 206, 0.986);
+    width: 280px;
+}
+
+.input-button{
+    background-color: inherit;
+    margin-top: 60px;
+}
+
+
+.botao{
+    background-color: white;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 0.3em;
+    border-color: rgba(143, 7, 206, 0.986);
+    color: rgba(143, 7, 206, 0.986);
+    height: 50px;
+    width: 250px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: linear;
+}
+.botao:hover{
+    height: 53px;
+    width: 253px;
+    background-color: rgba(143, 7, 206, 0.986);
+    color: white;
+    font-size: 0.72rem;
+}
+
+.a{
+    font-weight: bold;
+    background-color: inherit;
+    color: rgba(143, 7, 206, 0.986); 
+    cursor: pointer; 
+    transition: width 2s, height 2s;
+    transition-timing-function: linear;
+    font-size: 1rem;
+}
+
+.a:hover{
+    font-size: 1.04rem;
+}
+
+img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+/* .rodape{
+    color: white;
+    margin-top: 50px;
+    font-family: italic;
+} */
+.rodape{
+    display: flex;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+}
